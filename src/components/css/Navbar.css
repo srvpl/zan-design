@@ -1,0 +1,30 @@
+.navbar{
+    display:flex;
+    align-items: center;
+    padding: 2%;
+}
+.nav-items{
+    display: flex;
+    padding-left: 72%;
+    
+}
+ .nav-items a{
+    margin:10px;
+    padding: 10px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px; 
+ }
+ .btn-cart{
+
+    background-color: #F00000;
+    
+ }
+ .cart{
+    color: white;
+ }
+ .prd-btn, .contact-btn{
+    color: red;
+    font-family: 'Roboto', sans-serif;
+ }
