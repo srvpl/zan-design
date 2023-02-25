@@ -1,3 +1,6 @@
+.main{
+  background-color: #fffbf5;
+}
 .home-gallery-container{
   width: 100%;
   height: 100%;
@@ -8,4 +11,218 @@
 .home-gallery-card img{
   height: 100%;
   width: 100%;
+}
+.home-container{
+    display: flex;
+    flex-direction: row;
+}
+.home-item1{
+width: 30%;
+display: flex;
+flex-direction: column;
+align-items: self-start;
+margin-left:6.3em;
+
+}
+.home-img1-item{
+  width:70%;
+}
+.home-img1{
+  height: 36em;
+  width: 36em;
+}
+.title1{
+  font-size: 4.01em;
+  line-height: 1.1;
+  font-weight: 600;
+  text-align: start;
+}
+.title2-text{
+  text-align: start;
+  font-size: 1.8em;
+  line-height: 1.2em;
+  font-weight: 400;
+}
+.title3-price{
+  color: #747474;
+  text-align: start;
+  font-size: 1.8rem;
+  line-height: 1.2em;
+  font-weight: 400;
+  padding-right: 6em;
+}
+.reserve-btn{
+  margin-bottom: 0px;
+  padding: 0.8em 1.45em;
+  border: 0.15em solid #272531;
+  border-radius: 999em;
+  background-color: #272531;
+  color: #ffde89;
+  font-size: 1.1em;
+  line-height: 1.1em;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+.power-text1{
+  font-size: 2.21em;
+  line-height: 1.2em;
+  font-weight: 600;
+}
+.power-text2{
+  margin-bottom: 0px;
+  font-size: 5.9rem;
+  line-height: 1.0;
+  font-weight: 600;
+}
+.power-text3{
+  font-size: 2.19em;
+  line-height: 1.2em; 
+  text-align: center;
+  padding-left: 7em;
+  padding-right: 7em;
+  margin-top: 0.5em;
+}
+.power-text4{
+  color: #747474; 
+  margin-bottom: 2.5em;
+}
+.reserve-btn1{
+  background-color: #fffbf5;
+    font-family: Manrope, sans-serif;
+    color: #272531;
+    margin-bottom: 0px;
+    padding: 0.8em 1.45em;
+    border: 0.15em solid #272531;
+    border-radius: 999em;
+    font-size: 1.1em;
+    line-height: 1.1em;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.reserve-btn1:hover{
+  border-color: transparent;
+  background-color: #272531;
+  opacity: 1;
+  color: #ffde89;
+}
+.life-time-wrapper{
+  margin-bottom: 0.5em;
+  margin-top: 5em;
+}
+.heng-pro-img{
+  height: 70em;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+}
+.reserve-btn1-item{
+  margin-top: 3em;
+  margin-bottom: 5em;
+}
+.pro-lamp-wrapper{
+  position: relative;
+  height: 70em;
+}
+.explore-btn{
+  background-color: #fffbf5;
+  font-family: Manrope, sans-serif;
+  color: #272531;
+  margin-bottom: 0px;
+  padding: 0.55em 2em;
+  border: 0.11em solid #272531;
+  font-size: 1.1em;
+  line-height: 1.1em;
+  text-align: center;
+  font-weight: 400;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.explore1 {
+  position: absolute;
+  top: 15em;
+  left: 10em;
+}
+.explore2{
+  position: absolute;
+  right: 17.5em;
+  top: 32.5em;
+  }
+.explore3{
+  position: absolute;
+  bottom: 5.5em;
+   left: 10em
+  
+}
+
+.line-of-products{
+  margin-top: 1.5em;
+}
+.heading-detail-small {
+  color: #6b7094;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 0.08em; 
+  margin-top: 0px;
+  margin-bottom: 0.5em;
+
+}
+.h3-heading {
+  margin-top: 0px;
+  margin-bottom: 1em;
+  color: #160042;
+  font-size: 2.9rem;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+.line-of-products-img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.line-img-item{
+  width: 45.4%;
+  margin: 0.5em 1.5em;
+}
+.line-img{
+height: 100%;
+width: 100%;
+object-fit: fill;
+border-radius: 10px;
+}
+.line-of-products{
+  margin: 1.5em 4em;
+}
+.zan-design-video {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4em;
+}
+.z-d-video{
+    width: 15em;
+    height: 10.5em;
+    margin-left: 30%;
+    margin-right: 2em;
+    border-radius: 10px;
+    padding-right: 0px;
+}
+.z-d-txt{
+  width: 50%;
+}
+.zan-design-text{
+  font-size: 1.35rem;
+    line-height: 1.3em;
+    text-align: left;
+    font-weight: 600;  
+    margin-left: 0.1em; 
+    margin-right: 69%;
 }

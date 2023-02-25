@@ -8,7 +8,7 @@ const Navbar=()=>{
         <div>
      <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="container">
-        <a class="navbar-brand nav-logo" href="#"><img src="	https://uploads-ssl.webflow.com/63ddf1b03700f08b42ad3a14/63e9cdfdd9c4dd01848148c5_ZAN%20DESGIN%20logo-1-p-500.png" height={"35px"} width={"150px"}/></a>
+        <a class="navbar-brand nav-logo" href="#"><img src="./images/zan-logo.png" height={"35px"} width={"150px"}/></a>
         {/* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button> */}
