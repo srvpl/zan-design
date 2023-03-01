@@ -6,7 +6,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Layout Sections in Website using GSAP ScrollTrigger</title>
+    <title>Zan Design</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
       integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
@@ -19,28 +24,271 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <link rel="stylesheet" href="style.css" />
+    
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="scroll-animation">
-      <div class="container">
-        <div class="section section-1">
-          <h1>Airpods</h1>
+  <!-- Navbar Start-->
+  <div class="sun-space">
+    <div class="home-sun"></div>
+    <div class="home-right-box"></div>
+    <div class="nav-background"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark parallax" data-depth="1">
+      <div class="nav-container">
+          <a class="navbar-brand nav-logo" href="#"><img src="./images/zan-logo.png" height="40px" width="112px"/></a>
+        <div class="collapse navbar-collapse nav-item-wrapper" id="navbarsExample07">
+          <ul class="navbar-nav nav-links-wrapper">
+            <li class="nav-item ">
+              <a class="nav-link nav-header-text">HENG PRO MINI </a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link nav-header-text">HENG PRO</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link nav-header-text">LYBRA</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link nav-header-text">ABOUT US</a>
+            </li>
+          </ul>
+          <button class="nav-btn" data-toggle="modal" data-target="#exampleModalLong"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="margin-right: 5px;"><path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path></svg><span>Cart</span><span class="nav-cart-count">0</span></button>
+         
+         
         </div>
-        <div class="section section-2">
-          <h1>Homepod</h1>
+      </div>
+    </nav>
+    <!-- Navbar End-->
+
+    <!-- Home Start-->
+    <div class="main">
+      <div>
+      <div class="home-container">
+          <div class="home-item1 parallax" data-depth="0.3">
+          <h1 class="title1">Lybra Balance </h1>
+          <p class=" title2-text">This beautiful USB powered lamp designed with a unique magnetic sphere switch. Use it as a calming night light for kids or adults!</p>
+          <p class="title3-price">29.900€</p>
+          <div class="reserve-item">
+              <button class="reserve-btn">Reserve now</button>
+          </div>
+          </div>
+          <div class="home-img1-item parallax" data-depth="0.1">
+            <img src="./images/zan-design-img.png" class="home-img1"/>
+            <img src="./images/heng_shadow.svg" class="home-img2"/>
+          </div>
+      </div>
+      <div class="life-time-wrapper">
+          <p class="power-text1">20000 Hour for its Lifetime</p>
+          <h2 class="power-text2">Powered by the Sun</h2>
+          <p  class="power-text3">The Heng Balance Lamp is the traditional lamp next door with an unconventional twist that makes it the lamp like no other, ergo it will light up your room like none of the other lamps can.</p>
+          <p  class="power-text4">Works on the principle of magnetic equilibrium</p>
+          <div>
+          <button class="reserve-btn1">Reserve now</button>
+          </div>
+       </div>
+       </div>
+      </div>
+       <div class="zan-design-video">
+       <div class="z-d-video">
+       <video autoPlay loop style="background-image:'./images/home_video_back.png'; height: 100%; width: 100%; object-fit: fill; border-radius: 10px" muted playsInline data-wf-ignore="true" data-object-fit="fill">
+          <source src="./videos/zan-design-videos.mp4" data-wf-ignore="true"/>
+       </video>
+       <a href="https://youtu.be/z3wJi9wBlf8" target="_blank" class="play-button ">
+          <div class="play-icon ">
+          <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 13 16">
+            <path fill="currentColor" fill-rule="evenodd" d="M12.46 9.3L1.88 15.83A1.23 1.23 0 010 14.78V1.22A1.23 1.23 0 011.91.19L12.5 7.23a1.23 1.23 0 01-.04 2.07z"></path>
+          </svg>
+          </div>
+        </a>
+       </div>
+       <div class="z-d-txt">
+        <p class="zan-design-text">If you want to add some ambient lighting to your room, this lamp is a must.</p>
+        <p class="home-video-txt">See it in action <img src="./images/video-arrow.svg"/></p>
+       </div>
+       </div>
+
+       <div class="section2">
+        <div class="animation-wrapper">
+          <div class="animation-content">
+            <!-- block1 -->
+            <div class="hoverpen1">
+              <div class="animation-block">
+                <div class="top-wrapper">
+                  <h1 class="number">01</h1>
+                  <img src="./images/heng-balance-lamp.png" class="image">
+                  <div class="title-group">
+                    <h1 class="title">Heng Balance Lamp</h1>
+                    <h2 class="sub-title">
+                      The memory stays with you so <br/>much as its light shines on <br/>you...
+                    </h2>
+                  </div>
+                </div>
+                <div class="description-wrapper">
+                  <p class="description">
+                    When it balances, it looks like a sculpture radiating spiritual light that brightens up your mood; when it spins, it produces a marvellous optical illusion that puts your mind at ease. You are bound to get showered with compliments whenever a friend comes to visit.
+                  </p>
+                </div>
+              </div>
+            </div>
+      
+            <!-- block2 -->
+            <div class="hoverpen2">
+              <div class="animation-block">
+                <div class="top-wrapper">
+                  <h1 class="number">02</h1>
+                  <img
+                    src="./images/heng-pro-lamp1.png"
+                    width="678"
+                    alt=""
+                    class="image"
+                  >
+                  <div class="title-group">
+                    <h1 class="title">Heng Pro Lamp</h1>
+                    <h2 class="sub-title">
+                      HOW TO BE A BETTER <br/>GIFT-GIVER
+                    </h2>
+                  </div>
+                </div>
+                <div class="description-wrapper">
+                  <p class="description">
+                    Tuesday’s convergent exercises focus on a solution for the challenge. In the morning, you’ll run through a set of <strong>voting </strong>exercises on Monday’s sketches and <strong>present</strong> the most popular before making a selection. In the afternoon, you’ll define a <strong>test flow </strong>and create a <strong>storyboard </strong>that details how users will move through your solution.<br>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- blcok3 -->
+            <div class="hoverpen3">
+              <div class="animation-block">
+                <div class="top-wrapper">
+                  <h1 class="number">03</h1>
+                  <img
+                    src="./images/zan-design-img.png"
+                    width="350"
+                    alt=""
+                    class="image"
+                  >
+                  <div class="title-group">
+                    <h1 class="title">Lybra Balance Lamp</h1>
+                    <h2 class="sub-title">
+                      The solution visualised as an<br/> interactive prototype.
+                    </h2>
+                  </div>
+                </div>
+                <div class="description-wrapper">
+                  <p class="description">
+                    Wednesday’s tasks see our hard work from the previous days come to life. We’ll put our heads down and
+                    rapidly <strong>prototype</strong> the agreed upon storyboards, developing them as a clickable mockup
+                    showcasing <strong>user interface</strong>, <strong>interactions,</strong> and the end-to-end<strong>
+                      user flow </strong
+                    >of the solution - ready for testing<strong>.</strong><br>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div></div>
         </div>
-        <div class="section section-3">
-          <h1>
-            Dual <br />
-            Shock 4
-          </h1>
+      </div>
+       <div class="pro-lamp-wrapper">
+            <img src="./images/heng-pro-lamp.png" class="heng-pro-img"/>
+            <button  class="explore1 explore-btn">EXPLORE</button>
+          <button class="explore2 explore-btn">EXPLORE</button>
+           <button class="explore3 explore-btn">EXPLORE</button>
+         </div>
+         <!-- Gallery section start-->
+      <div class="scroll-animation">
+        <div class="gallery-container">
+          <div class="home-section home-section-1">
+            <div class="gallery-item-media-gradient"></div>
+            <div class="gallery-txt-container">
+            <p class="gallery-text gt">Red dot Award-Winning Design</p>
+            <p class="gallery-header gt">A touch of zen home décor wherever you need some gentle lighting.</p>
+          </div>
+          </div>
+          <div class="home-section home-section-2">
+            <div class="gallery-item-media-gradient"></div>
+            <div class="gallery-txt-container">
+              <p class="gallery-header gt">Fun Gift for Men and Women</p>
+              <p class="gallery-text1 gt">If you’re looking for a unique gift for your loved one, Heng Balance Lamp is the perfect option. If your girlfriend is an art lover or if your dad hopes for a classy Father’s Day gift for the office, this lamp is sure to brighten anyone’s day.</p>
+              <span class="gallery-anchor gt">Learn more</p>
+            </div>
+          </div>
+          <div class="home-section home-section-3">
+            <div class="gallery-item-media-gradient"></div>
+            <div class="gallery-txt-container">
+              <p class="gallery-header gt">Sophisticated Minimalist Lighting</p>
+              <p class="gallery-text1 gt">Whether you place this small lamp in your home or on your work desk, this lighting adds a sophisticated and polished look to any space.</p>
+              <span class="gallery-anchor gt">Learn more</p>
+            </div>
+          </div>
+          <div class="home-section home-section-4">
+            <div class="gallery-item-media-gradient"></div>
+            <div class="gallery-c4-container">
+              <img src="./assets/gallery_c4_img1.jpg" class="gallery-c4-img"/>
+              <img src="./assets/gallery_c4_img2.jpg" class="gallery-c4-img"/>
+              <img src="./assets/gallery_c4_img3.jpg" class="gallery-c4-img"/>
+              <img src="./assets/gallery_c4_img4.jpg" class="gallery-c4-img"/>
+              <img src="./assets/gallery_c4_img5.jpg" class="gallery-c4-img"/>
+              <img src="./assets/gallery_c4_img6.jpg" class="gallery-c4-img"/>
+              <img src="./assets/gallery_c4_img7.jpg" class="gallery-c4-img"/>
+              <img src="./assets/gallery_c4_img8.jpg" class="gallery-c4-img"/>
+            </div>
+          </div>
         </div>
-        <div class="section section-4">
-          <h1>DJI</h1>
+      </div>
+      <!-- Gallery section end-->
+       <div class="line-of-products">
+        <p class="heading-detail-small">LINE OF PRODUCTS</p>
+        <h3 class="h3-heading">Our Plethora of Product<br/>Just for YOU</h3>
+        <div class="line-of-products-img" id="home-line-pdts">
+          <!-- pdts added in script -->
+        </div>
+       </div>
+      </div>
+    <!--Home End-->
+     <footer>
+  <div className='footer'>
+  <div className='img1'>
+   <a href='#about-us'><img src="./images/footer_logo.png" className="logo1" alt='company logo'/> </a>
+   </div>
+   <div className='list'>
+    <a href="#what-is-levit" >What is levit8 ?</a>
+     <a href="#guidelines" >guidelines</a>
+    <a href="#why-levit" >why levit8</a>
+    <a href="#video" >videos</a>
+    <a href="#product" >products</a>
+   </div>
+   <div className='icons'>
+   <a href="https://www.facebook.com/levit8india" target="_blank"><img src="./images/icon_fb.png" className='social'/></a>
+     <a href="https://www.instagram.com/levit8_india/" target="_blank"><img src="./images/icon_ig.png" className='social'/></a>
+     <a href="https://www.linkedin.com/company/levit8-india/" target="_blank"><img src="./images/icon_ln.png" className='social'/></a>
+   </div>
+   <hr class="footer-line"/>
+   <div className='lower-footer'>
+<div className='copyright'>© levit8.com. All Rights Reserved.
+</div>
+<div className='lower'> <a href="/" >Help</a>
+     <a href="/" >FAQ</a>
+    <a href="/" >Privacy</a>
+    <a href="/" >Warranty</a>
+    <a href="/" >Returns</a></div>
+   </div> 
+    </div>
+</footer>
+    <script src="./script.js"></script>
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true" style="z-index: 1100;">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Your Cart</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            No items found.
+          </div>
         </div>
       </div>
     </div>
-    <script src="/script.js"></script>
   </body>
 </html>

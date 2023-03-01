@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="3750px" height="492px" viewBox="0 0 3750 492" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>floor</title>
+    <defs>
+        <linearGradient x1="50%" y1="6.32317517e-15%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#EFEAE1" stop-opacity="0" offset="0.038243007%"></stop>
+            <stop stop-color="#A7A2A2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-236.000000, -1357.000000)" fill="url(#linearGradient-1)">
+            <path d="M2024.92108,1821.53638 C3015.29387,1834.25393 3990.70812,1881.03865 3985.4495,1604.28773 C3980.14821,1327.5368 3006.55555,1360.95499 2021.01055,1360.95499 C1035.46555,1360.95499 236.523475,1470.34614 236.523475,1605.28697 C236.523475,1740.2278 1034.54829,1808.81883 2024.92108,1821.53638 Z" id="floor" transform="translate(2110.986489, 1596.112543) rotate(1.000000) translate(-2110.986489, -1596.112543) "></path>
+        </g>
+    </g>
+</svg>
